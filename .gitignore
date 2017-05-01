@@ -12,6 +12,5 @@ logs/
 pom.xml
 .idea/
 crawl/
-ivy/
 log/
 urls/
