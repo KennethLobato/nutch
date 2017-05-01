@@ -6,3 +6,12 @@ build/
 runtime/
 logs/
 /bin/
+.classpath
+.project
+*.iml
+pom.xml
+.idea/
+crawl/
+ivy/
+log/
+urls/
