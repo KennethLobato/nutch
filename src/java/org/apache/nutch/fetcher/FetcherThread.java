@@ -289,6 +289,7 @@ public class FetcherThread extends Thread {
               outputRobotsTxt(robotsTxtContent);
               robotsTxtContent.clear();
             }
+            /*
             if (!rules.isAllowed(fit.u.toString())) {
               // unblock
               ((FetchItemQueues) fetchQueues).finishFetchItem(fit, true);
@@ -300,7 +301,7 @@ public class FetcherThread extends Thread {
                   CrawlDatum.STATUS_FETCH_GONE);
               reporter.incrCounter("FetcherStatus", "robots_denied", 1);
               continue;
-            }
+            }*/
             if (rules.getCrawlDelay() > 0) {
               if (rules.getCrawlDelay() > maxCrawlDelay && maxCrawlDelay >= 0) {
                 // unblock
